@@ -14,7 +14,7 @@ When an order is created, the order service sends a message to a Kafka topic cal
 
 The shipping service subscribes to the "order-created" topic, and processes incoming messages to initiate the shipping process.
 
-As the shipping process progresses, the shipping service sends status updates to a Kafka topic called "shipping-updates".
+As the **shipping process** progresses, the shipping service sends status updates to a Kafka topic called "shipping-updates".
 
 The **customer service** subscribes to the "shipping-updates" topic, and sends order status updates to the customer.
 
@@ -24,3 +24,4 @@ The **customer service** subscribes to the "shipping-updates" topic, and sends o
 3. [Order Service](https://github.com/csankhala/OrderService)
 4. [Payment Service](#)
 5. [Customer Service](https://github.com/csankhala/CustomerService)
+6. [Shipping Service](#) 

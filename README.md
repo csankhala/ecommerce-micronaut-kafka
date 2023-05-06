@@ -19,9 +19,9 @@ As the **shipping process** progresses, the shipping service sends status update
 The **customer service** subscribes to the "shipping-updates" topic, and sends order status updates to the customer.
 
 # Services (Repos)
-1. [Product Catalog Service](#)
-2. [Shopping Cart Service](#)
+1. [Product Catalog Service](https://github.com/csankhala/ProductCatalogService)
+2. [Shopping Cart Service](https://github.com/csankhala/ShoppingCartService)
 3. [Order Service](https://github.com/csankhala/OrderService)
-4. [Payment Service](#)
+4. [Payment Service](https://github.com/csankhala/PaymentService)
 5. [Customer Service](https://github.com/csankhala/CustomerService)
-6. [Shipping Service](#) 
+6. [Shipping Service](https://github.com/csankhala/ShippingService) 

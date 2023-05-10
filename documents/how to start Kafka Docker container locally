@@ -22,3 +22,9 @@ docker ps
 This will display a list of all the running Docker containers on your machine. You should see both the ZooKeeper and Kafka containers listed.
 
 That's it! You now have a Kafka instance running locally on your machine using Docker.
+
+## Kafka UI
+
+docker run -it -p 8080:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-ui
+
+Then access the web UI at http://localhost:8080

@@ -25,3 +25,7 @@ The **customer service** subscribes to the "shipping-updates" topic, and sends o
 4. [Payment Service](https://github.com/csankhala/PaymentService)
 5. [Customer Service](https://github.com/csankhala/CustomerService)
 6. [Shipping Service](https://github.com/csankhala/ShippingService) 
+
+# Good First Issue List from this project
+
+[Good First Issue list](good-first-issue-list.md)

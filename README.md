@@ -29,3 +29,6 @@ The **customer service** subscribes to the "shipping-updates" topic, and sends o
 # Good First Issue List from this project
 
 [Good First Issue list](good-first-issue-list.md)
+
+# Tech/Tool
+Java, Micronaut, Kafka, Gradle, GitHub Action, Swagger, MapStruct, Lombok

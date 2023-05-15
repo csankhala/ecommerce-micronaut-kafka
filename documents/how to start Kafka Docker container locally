@@ -23,6 +23,10 @@ This will display a list of all the running Docker containers on your machine. Y
 
 That's it! You now have a Kafka instance running locally on your machine using Docker.
 
+## Next time simply run below commands (Its same command but without name field)
+docker run --network kafka-net -p 2181:2181 -d zookeeper
+docker run --network kafka-net -p 9092:9092 -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_CREATE_TOPICS="topic1:1:1" -d wurstmeister/kafka
+
 ## Kafka UI
 
 docker run -it -p 8080:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-ui
